@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 140px 50px 0 0;
+}
+
+
+.info{
+  
+  margin-bottom: 23px;
+  margin-top: 50px;
+  
+    
+}
+.location{
+  padding: 23px;
+  font-size: 35px;
+}
+
+
+.inputField{
+  height: 30px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+}
+
+
+.errorMsg{
+  position: absolute;
+  top: 49%;
+  left: 30%;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+.box {
+  position: absolute;
+  top: 49%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  width: 280px;
+  height: 400px;
+  
+}
+.inputData, .info{
+  position: absolute;
+   top: 20%;
+   left: 15%;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.img{
+  width: 700px;
+  height: 400px;
+  
+}
+.tempmin_max{
+  font-size: 14px;
+  padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day{
+  position: absolute;
+  top: 65%;
+  left: 30%; 
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  width: 280px;
+  height: 400px;
+
 }
+.date{
+  position: absolute;
+  top: 55%;
+  left: 20%; 
+  font-size: 30px;  
+  color: rgb(255, 255, 255);
+  width: 280px;
+  height: 400px;
+}
+.time{
+  position: absolute;
+  top: 80%;
+  
+  font-size: 20px;  
+  color:rgb(255, 255, 255);
+  width: 280px;
+  height: 400px;
+}
+ 
+
+
+
